@@ -1,0 +1,29 @@
+.todo {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border: 1px solid #a880ae;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+  color: rgba(247, 245, 245, 0.849);
+  background-color: #a880aea8;
+}
+
+.icons {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  color: white;
+}
+
+.editIcon {
+  color: white;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
